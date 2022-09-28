@@ -92,6 +92,10 @@ ul li a:hover {
     background-color: cyan;
 }
 
+ul li:first-child a {
+    color: #FA4A0C;
+}
+
 
 /* Main content  */
 
