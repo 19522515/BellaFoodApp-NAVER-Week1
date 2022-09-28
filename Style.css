@@ -101,7 +101,7 @@ ul li a:hover {
 }
 
 #content {
-    background: url('../img/Background.png') no-repeat center top;
+    background: url('img/Background.png') no-repeat center top;
     padding-bottom: 150px;
 }
 
@@ -228,7 +228,7 @@ hr {
 }
 
 #download {
-    background: url('../img/Background2.png') no-repeat center top;
+    background: url('img/Background2.png') no-repeat center top;
     padding: 120px 0;
 }
 
