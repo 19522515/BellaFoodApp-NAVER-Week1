@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #252B42;
+    font-size: 24px;
+    text-align: center;
+}
+
+html,
+body,
+header {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 320px;
+    height: 100%;
+    background-color: transparent;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul li a:not(:hover),
+.AppStore:not(:hover),
+.PlayStore:not(:hover),
+.AppStore2:not(:hover),
+.PlayStore2:not(:hover) {
+    transition: .3s;
+}
+
+
+/* Header Content */
+
+header {
+    height: auto;
+}
+
+.navbar {
+    display: none;
+    color: #000;
+}
+
+.navbar_menu {
+    display: none;
+}
+
+.navbar_menu ul li a {
+    color: #000;
+}
+
+span {
+    color: #fff;
+}
+
+.navbar2,
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar2 {
+    justify-content: space-between;
+    margin: 0 40px 0 70px;
+}
+
+.nav-wrapper {
+    width: 580px;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    color: #990808;
+    transition: .3s;
+    background-color: cyan;
+}
+
+
+/* Main content  */
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#content {
+    background: url('../img/Background.png') no-repeat center top;
+    padding-bottom: 150px;
+}
+
+.main-content {
+    padding-top: 70px;
+}
+
+.content-txt {
+    color: #fff;
+}
+
+.content-h1 {
+    font-size: 58px;
+    font-weight: 700;
+    margin: 20px 0 30px;
+}
+
+.content-h4 {
+    font-weight: 500;
+}
+
+.content-btn {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.PlayStore,
+.AppStore {
+    display: block;
+    height: 68px;
+    width: 236px;
+    background-color: #FA4A0C;
+    border: 2px solid #FA4A0C;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.AppStore {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #fff;
+    margin-left: 25px;
+}
+
+.AppStore:hover {
+    background-color: #990808;
+    border: 2px solid #990808;
+    color: #fff;
+    transition: .3s;
+}
+
+.PlayStore:hover {
+    background-color: #990808;
+    border: 2px solid #990808;
+    color: #fff;
+    transition: .3s;
+}
+
+
+/* Mid content */
+
+.phones {
+    margin-top: -80px;
+    text-align: center;
+}
+
+hr {
+    width: 884px;
+    height: 3px;
+    border: none;
+    margin: 0 auto;
+    background-color: #E4E4E4;
+    margin: 110px auto 0;
+}
+
+.account-title {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.account-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.no-effect {
+    display: none;
+}
+
+.account-text {
+    text-align: left;
+    margin-top: 170px;
+}
+
+.account-txt {
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.account-h3 {
+    color: #FA4A0C;
+}
+
+.account-h2 {
+    font-size: 40px;
+    margin: 30px 0 40px;
+}
+
+.account-h4 {
+    font-weight: 500;
+    color: #737373;
+}
+
+
+/* Content: varieties, checkout, download */
+
+.download-mobile {
+    display: none;
+}
+
+#download {
+    background: url('../img/Background2.png') no-repeat center top;
+    padding: 120px 0;
+}
+
+.download-txt {
+    color: #fff;
+}
+
+.download-h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.download-h4 {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+.app-btn {
+    display: inline !important;
+    margin: 20px;
+    padding: 20px;
+}
+
+.PlayStore2,
+.AppStore2 {
+    position: relative;
+    display: inline-block;
+    height: 68px;
+    width: 236px;
+    background-color: #FA4A0C;
+    border: 2px solid #FA4A0C;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.AppStore2 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #fff;
+}
+
+.AppStore2:hover {
+    background-color: #990808;
+    border: 2px solid #990808;
+    color: #fff;
+    transition: .3s;
+}
+
+.PlayStore2:hover {
+    background-color: #990808;
+    border: 2px solid #990808;
+    color: #fff;
+    transition: .3s;
+}
+
+
+/* Footer */
+
+.footer-mobile {
+    display: none;
+}
+
+#footer {
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.footer-content ul li {
+    margin: 10px;
+}
+
+ul li .fa {
+    color: #FA4A0C;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+}
+
+ul li:hover .fa {
+    color: #990808;
+    transition: all 0.5s ease;
+}
